@@ -1,0 +1,13 @@
+/* 
+image and SearchBar classes => This is for making images non draggable. 
+Ref: https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js 
+*/
+
+#image, #SearchBar {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
